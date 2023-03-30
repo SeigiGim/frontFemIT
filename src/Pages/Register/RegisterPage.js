@@ -1,10 +1,10 @@
 import React from "react";
-import { Form, Navbar, Footer } from "../../components";
+import { FormRegister, Navbar, Footer } from "../../components";
 const RegisterPage = () => {
 	return (
 		<div>
 			<Navbar />
-			<Form />
+			<FormRegister />
 			<Footer />
 		</div>
 	);

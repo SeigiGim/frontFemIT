@@ -3,7 +3,8 @@ import Button from "./Button/Button";
 import Card from "./Card/Card";
 import Comment from "./Comment/Comment";
 import Footer from "./Footer/Footer";
-import Form from "./Form/Form";
+import FormRegister from "./Form/FormRegister";
+import FormLogIn from "./Form/FormLogIn";
 import Image from "./Image/Image";
 import Logo from "./Logo/Logo";
 import Modal from "./Modal/Modal";
@@ -18,7 +19,8 @@ export {
 	Card,
 	Comment,
 	Footer,
-	Form,
+	FormRegister,
+	FormLogIn,
 	Image,
 	Logo,
 	Modal,

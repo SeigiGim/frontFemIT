@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../Button/Button";
 
-const Form = () => {
+const FormRegister = () => {
 	return (
 		<div>
 			<form>
@@ -68,4 +68,4 @@ const Form = () => {
 	);
 };
 
-export default Form;
+export default FormRegister;
