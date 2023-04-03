@@ -9,6 +9,7 @@ import Image from "./Image/Image";
 import Logo from "./Logo/Logo";
 import Modal from "./Modal/Modal";
 import Navbar from "./Navbar/Navbar";
+import NavbarLanding from "./Navbar/NavbarLanding";
 import Portfolio from "./Portfolio/Portfolio";
 import Publication from "./Publication/Publication";
 import Reactions from "./Reactions/Reaction";
@@ -25,6 +26,7 @@ export {
 	Logo,
 	Modal,
 	Navbar,
+	NavbarLanding,
 	Portfolio,
 	Publication,
 	Reactions,

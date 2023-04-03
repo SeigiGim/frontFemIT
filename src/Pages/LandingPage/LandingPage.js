@@ -1,7 +1,8 @@
-import React from "react";
+import * as React from "react";
 import { Link } from "react-router-dom";
 import { ReactSVG } from "react-svg";
-import { Navbar, Button } from "../../components";
+import { NavbarLanding } from "../../components";
+import Button from "@mui/material/Button";
 import imagen from "./assets/img/ilustracion_01.svg";
 import imagen2 from "./assets/img/ilustracion_02.svg";
 import imagenDivision from "./assets/img/division.svg";
@@ -10,7 +11,7 @@ import "./landingPage.css";
 const LandingPage = () => {
 	return (
 		<div className="landing-container">
-			<Navbar />
+			<NavbarLanding />
 			<header className="container-fluid row mt-5">
 				<section className="col-xs-12 col-md-6 about">
 					<h1 className="titulo">¡Únete a FemIT!</h1>
@@ -25,7 +26,9 @@ const LandingPage = () => {
 						personales. ¡Te esperamos!
 					</p>
 					<Link to="/RegisterPage">
-						<Button accion={"Registrarse"} color={"btn btn-outline-dark"} />
+						<Button variant={"contained"} color={"primary"}>
+							{"Registrarse"}
+						</Button>
 					</Link>
 				</section>
 				<section className="col-xs-12 col-md-6 about">
